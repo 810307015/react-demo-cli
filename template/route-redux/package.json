@@ -1,0 +1,62 @@
+{
+  "name": "react-empty-webpack-demo",
+  "version": "1.0.0",
+  "description": "一个带redux和router的react空项目",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "webpack-dev-server --config config/webpack.dev.js",
+    "build": "webpack --config config/webpack.pro.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/810307015/ReactDemo.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "empty",
+    "demo",
+    "cli"
+  ],
+  "author": "zhangzhongming",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/810307015/ReactDemo/issues"
+  },
+  "homepage": "https://github.com/810307015/ReactDemo#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-router-redux": "^4.0.8",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-import": "^1.13.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.5.3",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "htmllint-loader": "^2.1.4",
+    "less-loader": "^6.1.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "path": "^0.12.7",
+    "style-loader": "^1.2.1",
+    "terser-webpack-plugin": "^3.0.1",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dashboard": "^3.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "proxy": "http://example.com"
+}
