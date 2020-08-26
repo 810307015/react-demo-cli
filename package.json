@@ -1,16 +1,19 @@
 {
-  "name": "react-demo-cli",
+  "name": "create-react-auto",
   "version": "1.0.0",
   "description": "一个自动生成各种react模板的cli工具",
   "main": "index.js",
   "bin": {
-    "create-react-demo": "./bin/index.js"
+    "create-react-auto": "./bin/index.js"
   },
+  "files": [
+    "./template"
+  ],
+  "keywords": ["cli", "react", "route", "router", "redux"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/810307015/react-demo-cli.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
