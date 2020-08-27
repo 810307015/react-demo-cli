@@ -1,14 +1,11 @@
 {
   "name": "create-react-auto",
-  "version": "1.0.0",
+  "version": "1.1.3",
   "description": "一个自动生成各种react模板的cli工具",
   "main": "index.js",
   "bin": {
     "create-react-auto": "./bin/index.js"
   },
-  "files": [
-    "./template"
-  ],
   "keywords": ["cli", "react", "route", "router", "redux"],
   "repository": {
     "type": "git",
