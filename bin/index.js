@@ -4,7 +4,7 @@ const path = require('path');
 
 const list = process.argv;
 const type = list[2] || 'base';
-const p = path.resolve(__filename, `../../template/${type}`);
+const p = path.resolve(__dirname, `../template/${type}`);
 
 const copy = function (src, dst) {
   let paths = fs.readdirSync(src); //同步读取当前目录
