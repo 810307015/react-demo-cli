@@ -35,7 +35,7 @@ module.exports = {
     compress: true, // enable gzip compression
     port: 3333,
     open: true,
-    // historyApiFallback: true, // true for index.html upon 404, object for multiple paths
+    historyApiFallback: true, // true for index.html upon 404, object for multiple paths
     hot: true, // hot module replacement. Depends on HotModuleReplacementPlugin
     after: function(app, server, compiler) {
       console.log(app, server, compiler);
